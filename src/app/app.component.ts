@@ -14,11 +14,11 @@ export class AppComponent {
   title = 'Signals Labsheet W3';
   constructor (private signalsService:SignalsService) {}
 
-  inc() {
+  increment() {
     this.signalsService.increment();
   }
 
-  dec() {
+  decrement() {
     this.signalsService.decrement();
   }
 }
